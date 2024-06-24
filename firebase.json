@@ -1,0 +1,14 @@
+{
+  "hosting": [
+    {
+      "target": "initmediadesk",
+      "public": "initmediadesk",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "initdeskhere",
+      "public": "initdeskhere",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    }
+  ]
+}
