@@ -1,5 +1,19 @@
 {
   "projects": {
     "default": "final-project-firebase-f29d0"
-  }
+  },
+  "targets": {
+    "final-project-firebase-f29d0": {
+      "hosting": {
+        "initmediadesk": [
+          "initmediadesk"
+        ],
+        "initdeskhere": [
+          "initdeskhere"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
