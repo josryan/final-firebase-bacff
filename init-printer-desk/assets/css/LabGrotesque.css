@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'LabGrotesque';
+	src: url(../../assets/fonts/LabGrotesque-7c1bd971cc95183f065c6bf21fe2c793.woff2) format('woff2'),
+	url(../../assets/fonts/LabGrotesque-e8edb510647aab482a900dbaa7793011.woff) format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'LabGrotesque';
+	src: url(../../assets/fonts/LabGrotesque-be81bcf092094f87c845e56fc8664aa7.woff2) format('woff2'),
+	url(../../assets/fonts/LabGrotesque-0959070daa5adb91bdf41e2dc5f457ce.woff) format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'LabGrotesque';
+	src: url(../../assets/fonts/LabGrotesque-1e3add8a3bf4d0512f8dc467746f45f5.woff2) format('woff2'),
+	url(../../assets/fonts/LabGrotesque-50145cdfd6edcf0a9ea3ec0291079e0a.woff) format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}

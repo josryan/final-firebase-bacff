@@ -13,10 +13,17 @@
         ],
         "inittechnoxtc": [
           "inittechnoxtc"
+        ],
+        "initdeskzen": [
+          "initdeskzen"
+        ],
+        "initmediadesignz": [
+          "initmediadesignz"
+        ],
+        "init-printer-desk": [
+          "init-printer-desk"
         ]
       }
     }
-  },
-  "etags": {},
-  "dataconnectEmulatorConfig": {}
+  }
 }

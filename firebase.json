@@ -11,8 +11,18 @@
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
     },
     {
-      "target": "inittechnoxtc",
-      "public": "inittechnoxtc",
+      "target": "initdeskzen",
+      "public": "initdeskzen",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "initmediadesignz",
+      "public": "initmediadesignz",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "init-printer-desk",
+      "public": "init-printer-desk",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
     }
   ]

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 417 327">
+  <style>
+  #gradient-rect {
+    animation: gradient-rect-animation 3000ms linear infinite normal forwards;
+  }
+
+  @keyframes gradient-rect-animation {
+    0% {
+      transform: translate(-1000px, 21px)
+    }
+    33.333333% {
+      transform: translate(-1000px, 21px)
+    }
+    66.666667% {
+      transform: translate(2000px, 21px);
+    }
+    100% {
+      transform: translate(2000px, 21px)
+    }
+  }
+  </style>
+
+  <defs>
+    <linearGradient id="gradient-fill" x1="0" x2="1" y1=".5" y2=".5" >
+      <stop offset="42%" stop-color="#fff"/>
+      <stop offset="48%" stop-color="#777"/>
+      <stop offset="54%" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+
+  <g mask="url(#shape-mask)" class="skeleton fixed-width">
+    <g clip-path="url(#clip0_4_78)">
+      <rect width="200" height="100" transform="translate(1 187)" fill="#E8E9EA" />
+    </g>
+    <rect x="1" y="295" width="200" height="12" fill="#E8E9EA" />
+    <rect x="1" y="315" width="156" height="12" fill="#E8E9EA" />
+    <g clip-path="url(#clip1_4_78)">
+      <rect width="200" height="100" transform="translate(217 187)" fill="#E8E9EA" />
+    </g>
+    <rect x="217" y="295" width="200" height="12" fill="#E8E9EA" />
+    <rect x="217" y="315" width="156" height="12" fill="#E8E9EA" />
+    <rect y="115" width="173" height="24" fill="#E8E9EA" />
+    <rect x="1" y="147" width="271" height="24" fill="#E8E9EA" />
+    <rect x="1" width="313" height="32" fill="#E8E9EA" />
+    <rect y="50" width="99" height="33" rx="16.5" fill="#E8E9EA" />
+    <rect x="107" y="50" width="118" height="33" rx="16.5" fill="#E8E9EA" />
+    <rect x="233" y="50" width="123" height="33" rx="16.5" fill="#E8E9EA" />
+    <defs>
+      <clipPath id="clip0_4_78">
+        <rect width="200" height="100" fill="white" transform="translate(1 187)" />
+      </clipPath>
+      <clipPath id="clip1_4_78">
+        <rect width="200" height="100" fill="white" transform="translate(217 187)" />
+      </clipPath>
+    </defs>
+    <mask id="shape-mask" x="-150%" y="-150%" height="400%" width="400%">
+      <g id="gradient-rect" transform="translate(-281,21)">
+        <rect width="96" height="140" transform="rotate(38) scale(50) translate(-48,-70)" fill="url(#gradient-fill)"
+          stroke-width="0" />
+      </g>
+    </mask>
+  </g>
+</svg>
