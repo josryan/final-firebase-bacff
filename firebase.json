@@ -9,6 +9,11 @@
       "target": "initdeskhere",
       "public": "initdeskhere",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "inittechnoxtc",
+      "public": "inittechnoxtc",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
     }
   ]
 }

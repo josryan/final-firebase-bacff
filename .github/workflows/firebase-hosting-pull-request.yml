@@ -1,7 +1,7 @@
-name: Deploy to Firebase Hosting on Pull Request
+name: Deploy to Firebase Hosting on Push
 
 on:
-  pull_request:
+  push:
     branches:
       - main  # Change to your default branch
 
@@ -31,5 +31,7 @@ jobs:
           firebase use final-project-firebase-f29d0
           firebase target:apply hosting initmediadesk initmediadesk
           firebase target:apply hosting initdeskhere initdeskhere
+          firebase target:apply hosting inittechnoxtc inittechnoxtc
           firebase deploy --only hosting:initmediadesk
           firebase deploy --only hosting:initdeskhere
+          firebase deploy --only hosting:inittechnoxtc
