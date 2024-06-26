@@ -24,6 +24,16 @@
       "target": "init-printer-desk",
       "public": "init-printer-desk",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "init247designz",
+      "public": "init247designz",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "initdesignhere",
+      "public": "initdesignhere",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
     }
   ]
 }

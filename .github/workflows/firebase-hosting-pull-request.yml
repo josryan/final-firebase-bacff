@@ -32,12 +32,16 @@ jobs:
           firebase target:apply hosting initmediadesk initmediadesk
           firebase target:apply hosting initdeskhere initdeskhere
           firebase target:apply hosting inittechnoxtc inittechnoxtc
-            firebase target:apply hosting initdeskzen initdeskzen
+          firebase target:apply hosting initdeskzen initdeskzen
           firebase target:apply hosting initmediadesignz initmediadesignz
           firebase target:apply hosting init-printer-desk init-printer-desk
+          firebase target:apply hosting init247designz init247designz
+          firebase target:apply hosting initdesignhere initdesignhere
           firebase deploy --only hosting:initmediadesk
           firebase deploy --only hosting:initdeskhere
           firebase deploy --only hosting:inittechnoxtc
-                    firebase deploy --only hosting:initdeskzen
+          firebase deploy --only hosting:initdeskzen
           firebase deploy --only hosting:initmediadesignz
           firebase deploy --only hosting:init-printer-desk
+          firebase deploy --only hosting:init247designz
+          firebase deploy --only hosting:initdesignhere
