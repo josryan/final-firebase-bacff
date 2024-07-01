@@ -1,25 +1,10 @@
 {
   "projects": {
-    "default": "final-project-firebase-f29d0"
+    "default": "final-firebase-bacff"
   },
   "targets": {
-    "final-project-firebase-f29d0": {
+    "final-firebase-bacff": {
       "hosting": {
-        "initmediadesk": [
-          "initmediadesk"
-        ],
-        "initdeskhere": [
-          "initdeskhere"
-        ],
-        "inittechnoxtc": [
-          "inittechnoxtc"
-        ],
-        "initdeskzen": [
-          "initdeskzen"
-        ],
-        "initmediadesignz": [
-          "initmediadesignz"
-        ],
         "init-printer-desk": [
           "init-printer-desk"
         ],
@@ -28,8 +13,53 @@
         ],
         "initdesignhere": [
           "initdesignhere"
+        ],
+        "initdeskhere": [
+          "initdeskhere"
+        ],
+        "initdeskzen": [
+          "initdeskzen"
+        ],
+        "initmediadesignz": [
+          "initmediadesignz"
+        ],
+        "initmediadesk": [
+          "initmediadesk"
+        ],
+        "inittechnoxtc": [
+          "inittechnoxtc"
+        ]
+      }
+    },
+    "final-project-firebase-f29d0": {
+      "hosting": {
+        "init-printer-desk": [
+          "init-printer-desk"
+        ],
+        "init247designz": [
+          "init247designz"
+        ],
+        "initdesignhere": [
+          "initdesignhere"
+        ],
+        "initdeskhere": [
+          "initdeskhere"
+        ],
+        "initdeskzen": [
+          "initdeskzen"
+        ],
+        "initmediadesignz": [
+          "initmediadesignz"
+        ],
+        "initmediadesk": [
+          "initmediadesk"
+        ],
+        "inittechnoxtc": [
+          "inittechnoxtc"
         ]
       }
     }
-  }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

@@ -1,0 +1,226 @@
+.hero-cover--theme-6.hero-cover {
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  .hero-cover--theme-6.hero-cover .hero-cover__content {
+    max-width: 50%;
+  }
+}
+
+.hero-cover--theme-6.hero-cover .hero-cover__title {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 2.125rem;
+  line-height: 1.29;
+  margin-bottom: .27em;
+  margin-bottom: .8em;
+}
+
+@media (min-width: 768px) {
+  .hero-cover--theme-6.hero-cover .hero-cover__title {
+    font-size: 2.25rem;
+    line-height: 1.08;
+  }
+}
+
+.hero-cover--theme-6.hero-cover .hero-cover__desc {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.33;
+  margin-bottom: 1.33em;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 768px) {
+  .hero-cover--theme-6.hero-cover .hero-cover__desc {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+.hero-cover--theme-6.hero-cover .hero-cover__disclaimer {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.33;
+  padding: 4px;
+  margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+  .hero-cover--theme-6.hero-cover .hero-cover__disclaimer {
+    font-size: 0.875rem;
+    line-height: 1.42;
+  }
+}
+
+.hero-cover--theme-6.hero-cover .button {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+  .hero-cover--theme-6.hero-cover .button {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+  }
+}
+
+.hero-cover--theme-7.hero-cover {
+  background: var(--bs-code-color);
+  color: #fff;
+}
+
+.hero-cover--theme-7.hero-cover .hero-cover__content {
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .hero-cover--theme-7.hero-cover .hero-cover__content {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}
+
+.hero-cover--theme-7.hero-cover .hero-cover__title {
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 1.4;
+  margin-bottom: .5em;
+  margin-bottom: .3em;
+}
+
+@media (min-width: 768px) {
+  .hero-cover--theme-7.hero-cover .hero-cover__title {
+    font-size: 1.5rem;
+    line-height: 1.33;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-cover--theme-7.hero-cover .hero-cover__title {
+    float: left;
+    width: 60%;
+    margin-bottom: .2em;
+  }
+}
+
+.hero-cover--theme-7.hero-cover .hero-cover__desc {
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.71;
+  margin-bottom: 1.8em;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+  .hero-cover--theme-7.hero-cover .hero-cover__desc {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-cover--theme-7.hero-cover .hero-cover__desc {
+    float: left;
+    width: 60%;
+    margin-bottom: 0;
+  }
+}
+
+.hero-cover--theme-7.hero-cover .button {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero-cover--theme-7.hero-cover .button {
+    float: right;
+    display: inline-block;
+    width: auto;
+    margin: 0;
+  }
+}
+
+.hero-cover {
+  position: relative;
+}
+
+.hero-cover__container {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.hero-cover__content {
+  position: relative;
+  z-index: 2;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+}
+
+@media (min-width: 768px) {
+  .hero-cover__content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.hero-cover__picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-cover__picture__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-cover--stacked-small .hero-cover__picture {
+  position: relative;
+  display: block;
+  left: -5vw;
+  width: calc(100% + 10vw);
+  top: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .hero-cover--stacked-small .hero-cover__picture {
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.button.button--dory {
+  color: #fff;
+  background-color: var(--bs-purple);
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1em;
+  display: inline-block;
+  font-size: 1.25rem;
+  padding: 0 36px;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  border-radius: 1.375rem;
+  text-decoration: none;
+}
+

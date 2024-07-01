@@ -1,0 +1,19 @@
+.section--padded {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+  .section--padded {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 980px) {
+  .section--padded {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+

@@ -1,0 +1,130 @@
+#mainNav {
+  position: sticky;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding: 5px 20px;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  color: #9428ef;
+  border-color: rgba(255,255,255,0);
+}
+
+.nav-item {
+  font-size: .9em;
+  color: #000;
+  font-weight: 500;
+}
+
+#mainNav a:hover {
+  background: rgba(0,0,0,0);
+  border: 1px solid #000;
+}
+
+.display-4 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+@media (min-width: 992px) {
+  .display-4 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+}
+
+#mainNav a {
+  color: #000;
+  text-transform: uppercase;
+  font-family: 'Century Gothic';
+}
+
+.cta-careers-hiring {
+  background: #263A5F;
+  padding: 1em;
+  display: block;
+  float: left;
+}
+
+.cta-careers-hiring .view-job-openings-msg {
+  font-family: 'Kalam-Regular',Sans-Serif;
+  font-size: 22px;
+  line-height: 24px;
+  color: #41D58C!important;
+  transform: rotate(-5.48deg);
+  width: auto;
+  height: auto;
+  float: right;
+  clear: both;
+  text-align: right;
+}
+
+.cta-careers-hiring p {
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 1.5;
+  letter-spacing: -.003em;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.cta-careers-hiring .hiring-btn {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -.008em;
+  padding: 16px 50px;
+  height: 56px;
+  width: auto;
+  display: block;
+  height: auto;
+  float: right;
+  margin-bottom: 40px;
+  clear: both;
+}
+
+.cta-careers-hiring .blue-primary-btn {
+  border-color: #207DE9;
+  border-radius: 0px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -.008em;
+  width: auto;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Century Gothic';
+}
+
+.blue-primary-btn.hiring-btn :hover {
+  color: #410082;
+}
+
+.cta-careers-hiring .btn-primary {
+  background-color: #207DE9;
+  color: #fff;
+  padding: 1em 2em;
+}
+
+.cta-careers-hiring .btn {
+  display: inline-block;
+  font-size: 1.25em;
+  text-decoration: none;
+}
+
+.cta-careers-hiring .view-job-openings-msg strong {
+  color: #41D58C!important;
+}
+
+.cta-careers-hiring .view-job-openings-msg img {
+  position: absolute;
+  top: -60px;
+  left: 40%;
+}
+

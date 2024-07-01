@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>/browsers/desktop-gold.html</loc>
+    </url>
+    <url>
+        <loc>/about.html</loc>
+    </url>
+    <url>
+        <loc>/careers.html</loc>
+    </url>
+    <url>
         <loc>/contact.html</loc>
+    </url>
+    <url>
+        <loc>/delivery-policy.html</loc>
+    </url>
+    <url>
+        <loc>/digital-marketing-services.html</loc>
     </url>
     <url>
         <loc>/</loc>
     </url>
     <url>
+        <loc>/index-1.html</loc>
+    </url>
+    <url>
+        <loc>/landing-page-design.html</loc>
+    </url>
+    <url>
         <loc>/pricing.html</loc>
     </url>
     <url>
-        <loc>/privacy.html</loc>
+        <loc>/privacy-policy.html</loc>
+    </url>
+    <url>
+        <loc>/refund-policy.html</loc>
     </url>
     <url>
         <loc>/terms.html</loc>

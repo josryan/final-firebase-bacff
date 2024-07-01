@@ -1,0 +1,20 @@
+.text-light-emphasis.div-m {
+  margin: 2em 1em;
+}
+
+@media (min-width: 992px) {
+  .text-light-emphasis.div-m {
+    margin: 2em;
+  }
+}
+
+.div-m4 {
+  margin: 2em .5em;
+}
+
+@media (min-width: 992px) {
+  .div-m4 {
+    margin: 2em 5em;
+  }
+}
+

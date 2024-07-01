@@ -1,6 +1,5 @@
 li {
-  line-height: 1.75;
-  font-size: 13px;
+  line-height: 1.85;
   font-family: 'Albert Sans', sans-serif;
 }
 
@@ -27,12 +26,5 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   .div-m4 {
     margin: 2em 5em;
   }
-}
-
-.hero-grid li {
-  line-height: 1.75;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: 'Century Gothic';
 }
 

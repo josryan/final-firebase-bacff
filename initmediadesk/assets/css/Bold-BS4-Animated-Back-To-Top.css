@@ -52,3 +52,11 @@
   }
 }
 
+.no-hover :hover {
+  border-bottom: none;
+}
+
+.navbar-brand :hover {
+  border-bottom: 0px;
+}
+

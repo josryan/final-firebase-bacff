@@ -1,39 +1,76 @@
 {
   "hosting": [
     {
-      "target": "initmediadesk",
-      "public": "initmediadesk",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
-    },
-    {
-      "target": "initdeskhere",
-      "public": "initdeskhere",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
-    },
-    {
-      "target": "initdeskzen",
-      "public": "initdeskzen",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
-    },
-    {
-      "target": "initmediadesignz",
-      "public": "initmediadesignz",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
-    },
-    {
       "target": "init-printer-desk",
       "public": "init-printer-desk",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
     },
     {
       "target": "init247designz",
       "public": "init247designz",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
     },
     {
       "target": "initdesignhere",
       "public": "initdesignhere",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "target": "initdeskhere",
+      "public": "initdeskhere",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "target": "initdeskzen",
+      "public": "initdeskzen",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "target": "initmediadesignz",
+      "public": "initmediadesignz",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "target": "initmediadesk",
+      "public": "initmediadesk",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "target": "inittechnoxtc",
+      "public": "inittechnoxtc",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
     }
   ]
 }

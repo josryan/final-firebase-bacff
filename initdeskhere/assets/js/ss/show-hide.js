@@ -1,0 +1,1 @@
+this.LIBRO=this.LIBRO||{},this.LIBRO.showHide=function(i){"use strict";i.dom.addListener(".show-hide__trigger","click",(function(s){var e=s.currentTarget.parentNode,o=i.dom.hasClass(e,"show-hide--is-visible");i.dom.toggleClass(e,"show-hide--is-visible",!o)}))}(LIBRO.common);

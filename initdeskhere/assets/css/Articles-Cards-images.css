@@ -1,0 +1,32 @@
+.btn {
+  background-color: #410082;
+}
+
+#mainNav span {
+  font-size: 1em;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.card {
+  text-transform: capitalize;
+}
+
+.dark01 {
+  border-radius: 1EM;
+}
+
+ul {
+  font-family: 'Century Gothic';
+}
+
+.btn {
+  font-family: 'Century Gothic';
+}
+
+.footer a:hover {
+  color: var(--bs-secondary-bg);
+}
+
